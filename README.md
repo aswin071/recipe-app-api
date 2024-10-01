@@ -63,3 +63,9 @@ Options for documentation
 AUtomated API documentation with DRF
 *   Auto generate docs
     -drf-spectacular (library for use in auto-generate API)
+
+
+Build User API:
+*User Registration
+*Creating auth token
+*Viewing/updating profile
