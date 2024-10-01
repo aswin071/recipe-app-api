@@ -34,3 +34,7 @@ DB Race condition:
     -Check for database availability
     -Continue when database ready
 *Create Custom Django command
+
+
+Custom User Model
+*AbstarctUserModel and PermmissionMixin
