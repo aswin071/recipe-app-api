@@ -25,7 +25,7 @@ Isolate the code being tested
 
 How to mock code :
 *Use unittest.mock
-   { Magicmock /Mock 
+   { Magicmock /Mock
     patch }
 *Always start with test_ when writing a test
 
@@ -38,3 +38,28 @@ DB Race condition:
 
 Custom User Model
 *AbstarctUserModel and PermmissionMixin
+
+
+------------------API Documentation---------------------------
+what to documet?
+*Everything needed to use the API
+*Available Endpoints (paths)
+*SUpport methods
+*Formate of playloads
+    -parameter
+    -Post on JSON format
+*Formate of response
+    -JSON
+AUthentication Process
+
+Options for documentation
+*Manaul
+    *Word doc
+    *Markdown
+*Automated
+    -Use metadata from code (comments)
+    -Generate documentation pages
+
+AUtomated API documentation with DRF
+*   Auto generate docs
+    -drf-spectacular (library for use in auto-generate API)
